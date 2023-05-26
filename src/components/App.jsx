@@ -1,11 +1,14 @@
 import { Profile } from "./Profile/Profile";
 import { Statistics } from "./Statistics/Statistics";
 import { FriendList } from "./FriendList/FriendList";
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 
 import user from "../../src/user";
 import data from "../../src/data";
 import friends from "../../src/friends";
+import transactions from "../../src/transactions";
 import css from "./App.module.css";
+
 
 
 export const App = () => {
@@ -21,7 +24,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data}></Statistics>
       <Statistics stats={data}></Statistics>
       <FriendList friends={friends}></FriendList>
-
+<TransactionHistory items={transactions}></TransactionHistory>
       </div>
   );
 };

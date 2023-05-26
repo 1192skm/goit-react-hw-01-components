@@ -1,0 +1,27 @@
+.transactionhistory{
+    margin: auto;
+    margin-top: 60px;
+        margin-bottom: 60px;
+    text-align: center;
+    width:700px;
+    font-size: 22px;
+    padding: 30px;
+    border-collapse: collapse;
+}
+.head {
+    background-color: rgb(124, 180, 237);
+    height:35px;
+}
+.tablebody{
+    height:35px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+.type {
+    text-transform: capitalize;
+    font-weight: 500;
+}
