@@ -7,14 +7,12 @@ import user from "../../src/user";
 import data from "../../src/data";
 import friends from "../../src/friends";
 import transactions from "../../src/transactions";
-import css from "./App.module.css";
 
 
 
 export const App = () => {
   return (
-    <div className={css.container}>
-      Welcome to REACT!
+    <div>
         <Profile
           username={user.username}
           tag={user.tag}
