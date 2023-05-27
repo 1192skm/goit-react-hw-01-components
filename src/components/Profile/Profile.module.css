@@ -1,59 +1,58 @@
-.profile{
-    margin:auto;
-    margin-top: 20px;
-    align-items: center;
-    text-align: center;
-    width:300px;
-    padding-top: 10px;
-    border: 1px solid #dddddd;
-    border-radius: 10px;
-    box-shadow: 3px 3px 6px 0px rgba(102, 101, 101, 0.75);
+.profile {
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  padding-top: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 0px rgba(102, 101, 101, 0.75);
 }
-.avatar{
-    max-width: 150px;
-    border: 1px solid #dddddd;
-    border-radius: 50%;
-
+.avatar {
+  max-width: 150px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
 }
 .description {
-    align-items: center;
-    margin-bottom: 10px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .name {
-    margin-top: 16px;
-    font-size: 24px;
-    font-weight: 700;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .tag,
-.location{
-    margin-top: 8px;
-    font-size: 18px;
-    font-weight: 400;
-    color:rgb(105, 106, 106);
+.location {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(105, 106, 106);
 }
 .stats {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    padding: 15px;
-    border-top: 1px solid #dddddd;
-    background-color: #c4d9ed;
-    background-size: contain;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 15px;
+  border-top: 1px solid #dddddd;
+  background-color: #c4d9ed;
+  background-size: contain;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .item {
-    padding: 0;
+  padding: 0;
 }
-.label{
-    font-size: 18px;
-        font-weight: 400;
-        color: rgb(105, 106, 106);
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(105, 106, 106);
 }
-.quantity{
-    margin-top: 8px;
-    font-size: 22px;
-        font-weight: 400;
+.quantity {
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 400;
 }
